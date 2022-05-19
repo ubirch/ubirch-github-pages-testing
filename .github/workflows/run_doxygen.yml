@@ -1,7 +1,7 @@
 name: Generate Doc
 on: [push]
 jobs:
-  deploy:
+  deploys:
     runs-on: ubuntu-latest
     steps:
       - name: Doxygen Action
