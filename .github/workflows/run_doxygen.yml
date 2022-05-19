@@ -4,7 +4,8 @@ jobs:
   deploys:
     runs-on: ubuntu-latest
     steps:
+      - run: pwd
       - name: Doxygen Action
         uses: mattnotmitt/doxygen-action@1.9.1
         with:
-         working-directory: '/docs/doxygen'
+         working-directory: '../../docs/doxygen'
