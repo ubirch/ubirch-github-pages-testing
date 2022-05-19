@@ -1,5 +1,5 @@
-- name: Doxygen Action
-  on: [push]
-  uses: mattnotmitt/doxygen-action@1.9.1
-  with:
-    working-directory: 'docs/doxygen'
+name: Doxygen Action
+on: [push]
+uses: mattnotmitt/doxygen-action@1.9.1
+with:
+  working-directory: 'docs/doxygen'
