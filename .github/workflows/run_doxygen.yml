@@ -8,5 +8,5 @@ jobs:
       - name: Doxygen Action
         uses: mattnotmitt/doxygen-action@1.9.1
         with:
-         working-directory: 'docs/doxygen'
+         working-directory: '/home/runner/work/ubirch-github-pages-testing/ubirch-github-pages-testing/docs/doxygen'
       - run: pwd
