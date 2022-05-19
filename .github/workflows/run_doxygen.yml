@@ -1,9 +1,10 @@
 name: Generate Doc
 on: [push]
-  jobs:
-    deploy:
-      steps:
-        - name: Doxygen Action
-          uses: mattnotmitt/doxygen-action@1.9.1
-          with:
-            working-directory: 'docs/doxygen'
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Doxygen Action
+        uses: mattnotmitt/doxygen-action@1.9.1
+        with:
+         working-directory: 'docs/doxygen'
