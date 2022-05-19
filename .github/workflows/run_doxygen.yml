@@ -1,5 +1,9 @@
-name: Doxygen Action
+name: Generate Doc
 on: [push]
-uses: mattnotmitt/doxygen-action@1.9.1
-with:
-  working-directory: 'docs/doxygen'
+  jobs:
+    deploy:
+      steps:
+        - name: Doxygen Action
+          uses: mattnotmitt/doxygen-action@1.9.1
+          with:
+            working-directory: 'docs/doxygen'
