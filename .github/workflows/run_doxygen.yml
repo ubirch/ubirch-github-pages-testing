@@ -8,7 +8,15 @@ jobs:
         with:
           ref: ''
           
-      - run: ls -la
       - name: Doxygen Action
         uses: mattnotmitt/doxygen-action@1.9.1
-      - run: ls -la
+        with:
+          working-directory: '.'
+          doxyfile-path: './Doxyfile'
+      
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+         github_token: ${{ secrets.GITHUB_TOKEN }}
+         publish_dir: ./html
+         destination_dir: function_docs/
