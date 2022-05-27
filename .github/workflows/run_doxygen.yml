@@ -1,12 +1,12 @@
 name: Generate Doc
 on: [push]
 jobs:
-  deploys:
+  deployss:
     runs-on: ubuntu-latest
     steps:
       - run: ls -la
+      - run: pwd
       - name: Doxygen Action
         uses: mattnotmitt/doxygen-action@1.9.1
         with:
-         working-directory: '/home/runner/work/ubirch-github-pages-testing/ubirch-github-pages-testing/docs/doxygen'
-      - run: pwd
+         working-directory: 'docs/doxygen'
