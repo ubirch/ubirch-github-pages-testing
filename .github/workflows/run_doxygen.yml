@@ -4,7 +4,7 @@ jobs:
   deploys:
     runs-on: ubuntu-latest
     steps:
-      - run: pwd
+      - run: ls -la
       - name: Doxygen Action
         uses: mattnotmitt/doxygen-action@1.9.1
         with:
