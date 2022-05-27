@@ -4,6 +4,10 @@ jobs:
   deploys:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: ''
+          
       - run: ls -la
       - run: ls ../ -la
       - run: echo $GITHUB_WORKSPACE
