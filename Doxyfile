@@ -36,18 +36,18 @@ USE_MDFILE_AS_MAINPAGE = docs/doxygen/pages/MainPage.md
 
 # LAYOUT
 # https://www.doxygen.nl/manual/customize.html#minor_tweaks_header_css
-LAYOUT_FILE = layout/DoxygenLayout.xml
+LAYOUT_FILE = docs/doxygen/layout/DoxygenLayout.xml
 
 # CSS THEME AND EXTENSIONS USING:
 # https://jothepro.github.io/doxygen-awesome-css/
 GENERATE_TREEVIEW      = YES
-HTML_HEADER            = layout/header.html
-HTML_FOOTER            = layout/footer.html
-HTML_EXTRA_STYLESHEET  = static/doxygen-awesome.css  \
-                         static/doxygen-awesome-sidebar-only.css \
-                         static/doxygen-awesome-sidebar-only-darkmode-toggle.css
-HTML_EXTRA_FILES       = static/doxygen-awesome-darkmode-toggle.js \
-                         static/doxygen-awesome-paragraph-link.js
+HTML_HEADER            = docs/doxygen/layout/header.html
+HTML_FOOTER            = docs/doxygen/layout/footer.html
+HTML_EXTRA_STYLESHEET  = docs/doxygen/static/doxygen-awesome.css  \
+                         docs/doxygen/static/doxygen-awesome-sidebar-only.css \
+                         docs/doxygen/static/doxygen-awesome-sidebar-only-darkmode-toggle.css
+HTML_EXTRA_FILES       = docs/doxygen/static/doxygen-awesome-darkmode-toggle.js \
+                         docs/doxygen/static/doxygen-awesome-paragraph-link.js
 
 # => Class Diagrams with Graphviz
 HAVE_DOT = NO
