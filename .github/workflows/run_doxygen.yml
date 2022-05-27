@@ -9,8 +9,6 @@ jobs:
           ref: ''
           
       - run: ls -la
-      - run: ls ../ -la
-      - run: echo $GITHUB_WORKSPACE
-      - run: pwd
       - name: Doxygen Action
         uses: mattnotmitt/doxygen-action@1.9.1
+      - run: ls -la
