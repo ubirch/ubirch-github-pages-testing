@@ -5,6 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: ls -la
+      - run: ls ../ -la
       - run: pwd
       - name: Doxygen Action
         uses: mattnotmitt/doxygen-action@1.9.1
