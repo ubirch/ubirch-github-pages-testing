@@ -13,26 +13,26 @@
 # TAG += value [value, ...]
 # Values that contain spaces should be placed between quotes (\" \").
 
-#==
-#=========================
 #===========================================================================
-# CHANGES IN THIS DOXYFILE:
+#= CHANGE ON A PER PROJECT BASIS:
+PROJECT_NAME           = "Ubirch Protocol: function-documentation"
+INPUT                  = MainPage.md ../../ubirch
+# CHANGE OPTIONALLY:
+EXTRACT_ALL            = NO # NO Only documents functions that have a docstring. No subpages for all files and packages
+JAVADOC_AUTOBRIEF      = YES # Optimizing for Java optimizes for Python as well ¯\_(ツ)_/¯
+OPTIMIZE_OUTPUT_JAVA   = YES
+#=========================
 
 # To understand what the flags mean, refer here
 # https://www.woolseyworkshop.com/2020/06/25/documenting-python-programs-with-doxygen/
-PROJECT_NAME           = "Ubirch Protocol in Python"
 PROJECT_LOGO           = static/ubirch-logo.png
-INPUT                  = pages/MainPage.md ../../ubirch pages
-JAVADOC_AUTOBRIEF      = YES
-OPTIMIZE_OUTPUT_JAVA   = YES
-EXTRACT_ALL            = YES
 HIDE_SCOPE_NAMES       = YES
 SORT_BRIEF_DOCS        = YES
 GENERATE_LATEX         = NO
 
 # MAIN PAGE
 # https://stackoverflow.com/questions/9502426/how-to-make-an-introduction-page-with-doxygen
-USE_MDFILE_AS_MAINPAGE = pages/MainPage.md
+USE_MDFILE_AS_MAINPAGE = MainPage.md
 
 # LAYOUT
 # https://www.doxygen.nl/manual/customize.html#minor_tweaks_header_css
@@ -40,12 +40,12 @@ LAYOUT_FILE = layout/DoxygenLayout.xml
 
 # CSS THEME AND EXTENSIONS USING:
 # https://jothepro.github.io/doxygen-awesome-css/
-GENERATE_TREEVIEW      = YES
+GENERATE_TREEVIEW      = NO
 HTML_HEADER            = layout/header.html
 HTML_FOOTER            = layout/footer.html
-HTML_EXTRA_STYLESHEET  = static/doxygen-awesome.css  \
-                         static/doxygen-awesome-sidebar-only.css \
-                         static/doxygen-awesome-sidebar-only-darkmode-toggle.css
+HTML_EXTRA_STYLESHEET  = static/doxygen-awesome.css  #\
+                         #static/doxygen-awesome-sidebar-only.css \
+                         #static/doxygen-awesome-sidebar-only-darkmode-toggle.css
 HTML_EXTRA_FILES       = static/doxygen-awesome-darkmode-toggle.js \
                          static/doxygen-awesome-paragraph-link.js
 
@@ -53,10 +53,7 @@ HTML_EXTRA_FILES       = static/doxygen-awesome-darkmode-toggle.js \
 HAVE_DOT = NO
 DOT_IMAGE_FORMAT = svg
 DOT_TRANSPARENT = YES
-
 #===========================================================================
-#=========================
-#==
 
 #---------------------------------------------------------------------------
 # Project related configuration options

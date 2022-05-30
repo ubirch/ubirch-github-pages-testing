@@ -1,11 +1,10 @@
-@tableofcontents
 
 <!-- These markdown files are supposed to be read by doxygen, 
-a software for generating documentation. So don't wonder about the @page, 
-@ref - or similar statements. Please refer as well to the 
+a software for generating documentation. So don't wonder about the @tableofcontents, 
+@note and <h1> statements. Please refer as well to the 
 official documentation at developer.ubirch.com -->
 
-Welcome in the documentation of the [ubirch-protocol](https://github.com/ubirch/ubirch-protocol) in Python!
+## Python Implementation 
 
 <h1> Getting Started </h1>
 
@@ -33,4 +32,4 @@ The ubirch library consists of three parts which can be used individually:
 
 > The [ubirch](https://ubirch.com) protocol uses the [Ed25519](https://ed25519.cr.yp.to/) signature scheme by default. But [ECDSA](https://www.encryptionconsulting.com/education-center/what-is-ecdsa/) is implemented as well.
 
-@note The sidebar of this documentation sadly won't work well in Firefox 
+@note There is darkmode! You can find it in the upper right corner.
