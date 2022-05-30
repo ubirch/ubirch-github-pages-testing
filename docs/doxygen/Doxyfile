@@ -44,7 +44,6 @@ GENERATE_TREEVIEW      = NO
 HTML_HEADER            = layout/header.html
 HTML_FOOTER            = layout/footer.html
 HTML_EXTRA_STYLESHEET  = static/doxygen-awesome.css
-#HTML_EXTRA_FILES       = static/doxygen-awesome-darkmode-toggle.js
 
 # => Class Diagrams with Graphviz
 HAVE_DOT = NO
