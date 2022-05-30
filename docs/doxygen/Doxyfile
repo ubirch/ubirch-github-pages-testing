@@ -43,11 +43,8 @@ LAYOUT_FILE = layout/DoxygenLayout.xml
 GENERATE_TREEVIEW      = NO
 HTML_HEADER            = layout/header.html
 HTML_FOOTER            = layout/footer.html
-HTML_EXTRA_STYLESHEET  = static/doxygen-awesome.css  #\
-                         #static/doxygen-awesome-sidebar-only.css \
-                         #static/doxygen-awesome-sidebar-only-darkmode-toggle.css
-HTML_EXTRA_FILES       = static/doxygen-awesome-darkmode-toggle.js \
-                         static/doxygen-awesome-paragraph-link.js
+HTML_EXTRA_STYLESHEET  = static/doxygen-awesome.css
+#HTML_EXTRA_FILES       = static/doxygen-awesome-darkmode-toggle.js
 
 # => Class Diagrams with Graphviz
 HAVE_DOT = NO
