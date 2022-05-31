@@ -1,12 +1,12 @@
 
-<!-- These markdown files are supposed to be read by doxygen, 
-a software for generating documentation. So don't wonder about the @tableofcontents, 
-@note and <h1> statements. Please refer as well to the 
-official documentation at developer.ubirch.com -->
+<!-- This markdown file is supposed to be read by doxygen, 
+a software for generating documentation. So don't wonder about the @note statement. 
+Please refer as well to the official documentation at 
+developer.ubirch.com -->
+
+[**Documentation and examples**](https://developer.ubirch.com/ubirch-protocol-python/)
 
 [**Github repository**](https://github.com/ubirch/ubirch-protocol-python/tree/ecdsa-betterReadMe)
-
-[**Documentation and examples**](https://github.com/ubirch/ubirch-protocol-python/blob/ecdsa-betterReadMe/docs/index.md)
 
 ---
 
@@ -27,4 +27,4 @@ The ubirch library consists of three parts which can be used individually:
 
 ---
 
-@note There is darkmode! You can find next to the searchbar.
+@note There is darkmode! You can find it next to the searchbar.

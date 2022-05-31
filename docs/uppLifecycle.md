@@ -1,12 +1,5 @@
-@page uppLifecycle A UPP's Lifecycle
-@tableofcontents
 
-<!-- These markdown files are supposed to be read by doxygen, 
-a software for generating documentation. So don't wonder about the @page, 
-@ref - or similar statements. Please refer as well to the 
-official documentation at developer.ubirch.com -->
-
-
+# A UPP's Lifecycle
 
 ## From measurement to blockchain-anchored UPP
 The process needed to get a UPP to be anchored in the blockchain can be cut down into multiple steps. 
