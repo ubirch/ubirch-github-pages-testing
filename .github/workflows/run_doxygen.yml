@@ -19,6 +19,5 @@ jobs:
         with:
          publish_dir: docs/doxygen/html
          external_repository: ubirch/function_documentation
-         github_token: ${{ secrets.GITHUB_TOKEN }}
          personal_token: ${{ secrets.PERSONAL_TOKEN }}
          destination_dir: ${{ github.event.repository.name }}
