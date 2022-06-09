@@ -1,0 +1,16 @@
+.DS_STORE
+*.keys
+*.cfg
+.idea
+*.iml
+*.pyc
+*.ini
+*.sig
+*.jks
+*.egg-info
+build
+dist
+/venv*
+docs/Gemfile.lock
+docs/_site/
+docs/doxygen/html/
